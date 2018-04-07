@@ -14,6 +14,7 @@ public class ObatAksi {
         Obat cair = new Obat();
         Obat tablet = new Obat();
         Obat serbuk = new Obat();
+        Obat Behavior = new Obat();
         
         cair.merk="Hufagrip";
         cair.jenis="Zat Cair";
@@ -33,7 +34,12 @@ public class ObatAksi {
         serbuk.warna="Putih";
         serbuk.kemasan="Alumunium Foil";
         
+        Behavior.Behavior="Mencegah, mengobati dan menyembuhkan";
         
+        cair.cetakInfo();
+        tablet.cetakInfo();
+        serbuk.cetakInfo();
+        Behavior.cetakInfo();
     
 }
 }

@@ -15,6 +15,7 @@ public class Obat {
     String isi;
     String warna;
     String kemasan;
+    String Behavior;
     
     void cetakInfo(){
         System.out.println("merk      :"+merk);
@@ -22,5 +23,6 @@ public class Obat {
         System.out.println("isi       :"+isi);
         System.out.println("warna     :"+warna);
         System.out.println("kemasan   :"+kemasan);
+        System.out.println("Behavior  :"+Behavior);
     }
 }
