@@ -11,5 +11,10 @@ package praktek;
  */
 public class ObatAksi {
     public static void main (String[] args) {
+        Obat cair = new Obat();
+        Obat tablet = new Obat();
+        Obat serbuk = new Obat();
+        
+    
 }
 }
