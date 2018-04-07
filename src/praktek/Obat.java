@@ -10,5 +10,17 @@ package praktek;
  * @author win 10
  */
 public class Obat {
+    String merk;
+    String jenis;
+    String isi;
+    String warna;
+    String kemasan;
     
+    void cetakInfo(){
+        System.out.println("merk      :"+merk);
+        System.out.println("jenis zat :"+jenis);
+        System.out.println("isi       :"+isi);
+        System.out.println("warna     :"+warna);
+        System.out.println("kemasan   :"+kemasan);
+    }
 }
